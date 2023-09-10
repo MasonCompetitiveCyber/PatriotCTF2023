@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  shell:
+    build: .
+    ports:
+      - 5001:5001
+    privileged: true

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <title>Select Your Starter Pokémon</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Pokémon World!</h1>
+        <h1>Choose your starter Pokémon:</h1>
+        <div class="pokemon-grid">
+            <a href="/charmander" class="pokemon-card">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
+                <h2>Charmander</h2>
+            </a>
+            <a href="/bulbasaur" class="pokemon-card">
+                <img src="https://archives.bulbagarden.net/media/upload/f/fb/0001Bulbasaur.png" alt="Bulbasaur">
+                <h2>Bulbasaur</h2>
+            </a>
+            <a href="/squirtle" class="pokemon-card">
+                <img src="https://static.pokemonpets.com/images/monsters-images-800-800/7-Squirtle.webp" alt="Squirtle">
+                <h2>Squirtle</h2>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

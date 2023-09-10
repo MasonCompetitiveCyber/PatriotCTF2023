@@ -1,0 +1,93 @@
+<style>
+body {
+  background: #333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #c2e59c , #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #c2e59c , #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  color: #666;
+  display: flex;
+  font: 1em "Droid Sans", sans-serif;
+  line-height: normal;
+  height: 100vh;
+  line-height: 1.5;
+  margin: 0;
+}
+main {
+  margin: auto;
+  max-width: 36em;
+  padding: 1.5em;
+}
+code {
+  background: rgba(0,0,0,0.2);
+  padding: 0.25em;
+}
+.title {
+  margin: 1.5em auto 0 auto;
+  text-align: center;
+}
+.title span {
+  font-size: 8em;
+  display: inline-block;
+  font-weight: 900;
+  vertical-align: middle;
+  text-shadow: 0.25rem 0.25rem 0.5rem #222;
+}
+ 
+.red {
+  color: #f22;
+}
+.white {
+  color: #fff;
+}
+.do-not {
+    background: #f22;
+    border-radius: 50% 50%;
+    box-shadow: 0.25rem -0.25rem 0.5rem #222;
+    position: relative;
+    width: 6.875rem;
+    height: 6.875rem;
+    transform: rotate(90deg);
+}
+.hole {
+    background: #333;
+    position: absolute;
+    width: 5rem;
+    height: 2.34375rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem #222 inset;
+    left: 13%;
+}
+.one {
+  border-bottom: 0;
+  top: 10%;
+}
+hr {
+  border: 1px solid #911;
+  position: absolute;
+  top: -9%;
+  width: 98%;
+}
+.two {
+    border-radius: 0 0 6.25rem 6.25rem;
+    border-top: 0;
+    bottom: 10%;
+}
+p {
+  font-size: 1.75em;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+</style>
+<main>
+  <div class="title">
+    <span class="red">4</span><span class="white">BI</span>
+    <span class="do-not">
+      <span class="hole one"></span>
+      <hr>
+      <span class="hole two"></span>
+    </span>
+    <span class="red">3</span><span class="white">N!</span>
+  </div>
+  <p>You don’t have permission to access <code>/secretsforyou/</code> on this server.</p>
+</main>

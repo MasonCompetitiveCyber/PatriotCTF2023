@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp12044994.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 2px solid #00BFFF;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #00BFFF;
+    border-radius: 10px;
+}
+
+.pokemon-card img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.pokemon-card h2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #00BFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poke-img img {
+    width: 200px;
+    margin: 20px 0;
+    border: 2px solid #00BFFF;
+    border-radius: 10px;
+}
+
+.data {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #00BFFF;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+.data h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid h1 {
+    font-weight: bold;
+}
