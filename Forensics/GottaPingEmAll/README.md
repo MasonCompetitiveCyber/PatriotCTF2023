@@ -28,10 +28,10 @@ run solve.py (located in 'solution' folder)
 
 copy hex data from after end of jpg file (after FF D9 hex bytes)
 
-![image](https://github.com/MasonCompetitiveCyber/patriotctf2023-private/assets/101006959/92adb3ae-a238-4ba4-8035-eb2c531a5a42)
+![image](https://github.com/MasonCompetitiveCyber/PatriotCTF2023/assets/101006959/f6525778-26eb-46c5-a516-d1d034f34636)
 
 cyberchef: from hex > to binary > bit flip (0's become 1's, 1's become 0's) > from binary
 
-![image](https://github.com/MasonCompetitiveCyber/patriotctf2023-private/assets/101006959/2d2e7e0f-1757-46f8-a1d9-6ac9e487a9f0)
+![image](https://github.com/MasonCompetitiveCyber/PatriotCTF2023/assets/101006959/5d29ce73-59d5-4c89-9455-de7cd06907d9)
 
 Alternative solution: Instead of cyberchef, paste the hex in the [Boxentriq Hex Analysis Tool](https://www.boxentriq.com/code-breaking/hex-analysis)
