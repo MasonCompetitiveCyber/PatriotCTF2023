@@ -1,7 +1,7 @@
 # PatriotCTF 2023 Challenges
 
 * * *
-
+![image](https://github.com/MasonCompetitiveCyber/PatriotCTF2023/assets/101006959/0b0c61a5-2c02-4ad7-adc6-92c77301968d)
 * * * 
 
 ## Crypto:
