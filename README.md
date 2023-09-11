@@ -79,7 +79,7 @@
 ## PWN
 - [Bookshelf](pwn/bookshelf) - Author: Elbee
 - [Bookshelf V2](pwn/bookshelfv2) - Author: Elbee
-- [Guessing Game](pwn/guessinggame) - Author: Elbee
+- [Guessing Game](pwn/guessinggame) - Author: Jax
 - [Note Taker](pwn/note_taker) - Author: Caffix
 - [Printshop](pwn/printshop) - Author: Elbee
 - [Softshell](pwn/softshell) - Author: Elbee
